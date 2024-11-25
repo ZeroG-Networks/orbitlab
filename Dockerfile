@@ -5,7 +5,7 @@ EXPOSE 8888
 
 RUN apt-get update --fix-missing && \
     apt-get upgrade -y && \
-    apt-get install -y curl && \
+    apt-get install -y curl=8.5.0-2ubuntu10.5 && \
     apt-get clean
 
 # First install conda, because jupyterlab is packaged by it.
