@@ -8,7 +8,8 @@ RUN apt-get update --fix-missing && \
     apt-get install -y --no-install-recommends \
                     ca-certificates=20240203 \
                     curl=8.5.0-2ubuntu10.5 && \
-    apt-get clean
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 # First install conda, because jupyterlab is packaged by it.
 RUN curl -O \
