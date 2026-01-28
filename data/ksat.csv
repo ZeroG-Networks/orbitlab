@@ -1,0 +1,30 @@
+Site, # Apertures, Latitude (deg N), Longitude (deg E), Notes 
+Svalbard, 6, 78.22875, 15.39964,
+Jan Mayen, 3, 70.92145, -8.71737,
+Vardo, 3, 70.36779, 31.12509, 
+Tromsoe, 3, 69.6627178, 18.93964545,
+Nuuk, 3, 64.182789, -51.73363,
+Inuvik, 10, 68.31953, -133.54917, shared with SSC etc. 
+Fairbanks, 3, 64.97275, 212.4989, shared? 
+Los Angeles, 3, 34.7582318, 239.3728786, no information - Vandenberg AFB? 
+Hawaii, 6, 21.54675, -158.23982, US Space Force ?  should be Maui E220160? 
+Panama, 2, 8.9833, -79.55,
+Cordoba, 5, -31.52291, -64.46091, CNAE Argentina 
+Azores, 1, 36.99769, -25.13588, ESA 
+Maspalomas, 3, 27.76295, -15.63386, ESA / INTA 
+Puertollano, 2, 38.6741, -4.16201, Hispasat and others shared 
+Nemea, 6, 37.84604, 22.62216, L/C band only? 
+Dubai, 5, 25.224, 55.3278, 
+Bangalore, 4, 12.9311, 77.6101, IRSO / ISTRAC ? 
+Singapore, 2, 1.3661, 103.9915,
+Mauritius, 3, -20.1142, 57.5565,
+Hartebeesthoek, 3, -25.88974, 27.68533, NRF / SARAO 
+Mingenew, 2, -29.1994, 115.44225, ATLAS shared 
+Okinawa, 4, 26.4055, 127.7766,
+Tokyo, 1, 35.65971, 139.74519, JAXA 
+Jeju, 3, 33.2883, 126.4621, Contec? 
+Hokkaido, 1, 43.8, 142.3689, Viasat RTE 
+Awarua, 1, -46.50447, 168.37269, Space Operations New Zealand Ltd 
+Tolhuin, 2, -54.510448, -67.115565, CNES 
+Punta Arenas, 1, -52.93279, -70.85021, shared with SSC; has additional smaller apertures 
+Antarctica Trollsat, 2, -72.01243, 2.53219, 
