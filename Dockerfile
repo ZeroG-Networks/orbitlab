@@ -7,7 +7,7 @@ RUN apt-get update --fix-missing && \
     apt-get upgrade -y && \
     apt-get install -y --no-install-recommends \
                     ca-certificates=20240203 \
-                    curl=8.5.0-2ubuntu10.8 && \
+                    curl=8.5.0-2ubuntu10.16 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
