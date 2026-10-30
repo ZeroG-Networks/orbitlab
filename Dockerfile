@@ -29,8 +29,10 @@ RUN /opt/conda/bin/conda update -n base -c defaults conda && \
 # Use conda-forge to get Orekit, then download orekit data files.
 RUN /opt/conda/bin/conda config --add channels conda-forge && \
     conda install orekit && \
-    curl -O https://gitlab.orekit.org/orekit/orekit-data/-/archive/master/orekit-data-master.zip && \
-    mv orekit-data-master.zip orekit-data.zip
+    curl -O https://gitlab.orekit.org/orekit/orekit-data/-/archive/main/orekit-data-main.zip && \
+    mv orekit-data-main.zip orekit-data.zip
+
+RUN /opt/conda/bin/conda install basemap
 
 CMD ["/opt/conda/bin/conda", "run", "jupyter", "lab", \
      "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser", \
